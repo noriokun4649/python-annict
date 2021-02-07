@@ -13,7 +13,7 @@ class OAuthHandler(object):
         client_id,
         client_secret,
         name="annict",
-        base_url="https://api.annict.com",
+        base_url="https://annict.jp",
         redirect_uri="urn:ietf:wg:oauth:2.0:oob",
     ):
         self.client_id = client_id

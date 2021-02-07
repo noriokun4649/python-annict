@@ -9,7 +9,7 @@ def test_get_authorization_url():
     url = auth.get_authorization_url()
     endpoint, qs = url.split("?")
 
-    assert endpoint == "https://api.annict.com/oauth/authorize"
+    assert endpoint == "https://annict.jp/oauth/authorize"
     assert parse_qs(qs) == {
         "scope": ["read"],
         "client_id": ["dummy_client_id"],
